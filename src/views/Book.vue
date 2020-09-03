@@ -16,7 +16,7 @@
     <h1 class="room__title">{{ roomData.name }}</h1>
 
     <section class="row room__body">
-      <div class="col-sm-6 col-12">
+      <div class="col-sm-6 col-12 mb-4">
         <form class="block w-75 mx-auto p-3">
           <label class="mt-3">日期</label>
           <div class="container-fluid row block__room">
@@ -106,7 +106,7 @@
           {{ state.message }}
         </aside>
       </div>
-      <div class="col-sm-6 col-12">
+      <div class="col-sm-6 col-12 mb-4">
         <h3>預約房間：</h3>
         <h3 class="mb-4">{{ roomData.name }}</h3>
         <p>{{ roomData.description }}</p>

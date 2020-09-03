@@ -260,6 +260,7 @@
 }
 
 .alert__message{
+  z-index: 2;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -271,24 +272,14 @@
 @keyframes pop{
   0%{
     opacity: 0;
-    width: 0;
-    overflow: hidden;
   }
   15%{
     opacity: 1;
-    height: auto;
-    width: 100%;
-    overflow: auto;
   }
   75%{
     opacity: 1;
-    height: auto;
-    width: 100%;
-    overflow: auto;
   }
   100%{
-    overflow: hidden;
     opacity: 0;
-    width: 0;
   }
 }
