@@ -1,24 +1,2 @@
-# w6
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[UI設計稿](https://xd.adobe.com/spec/6d92e666-53be-4c29-725c-b3d84379249f-1ba3/specs/)  
+[網頁](https://chite.github.io/w6/dist/)
